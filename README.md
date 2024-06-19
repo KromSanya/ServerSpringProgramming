@@ -1,12 +1,19 @@
 Таблицы:
 mygroup: id, name
+
 student: id, firstName, surname, patronymic, status, group_id
+
 teacher: id, firstName, surname, secondName
+
 subject: id, name
+
 lesson: id, date, time, teacherId, subjectId, groupId
+
 attendance: id, studentId, lessonId
 
+
 код для их создания:
+
 CREATE TABLE MyGroup (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `name` VARCHAR(45) NOT NULL
