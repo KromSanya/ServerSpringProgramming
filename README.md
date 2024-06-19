@@ -1,4 +1,5 @@
 Таблицы:
+
 mygroup: id, name
 
 student: id, firstName, surname, patronymic, status, group_id
