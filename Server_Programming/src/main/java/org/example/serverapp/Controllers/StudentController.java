@@ -2,7 +2,7 @@ package org.example.serverapp.Controllers;
 
 
 import org.example.serverapp.Service.StudentService;
-import org.example.serverapp.Utils.CreateOrUpdateStudentPojo;
+import org.example.serverapp.Utils.pojos.CreateOrUpdateStudentPojo;
 import org.example.serverapp.entities.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

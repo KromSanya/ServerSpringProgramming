@@ -1,7 +1,7 @@
 package org.example.serverapp.Controllers;
 
 import org.example.serverapp.Service.GroupService;
-import org.example.serverapp.Utils.CreateGroupPojo;
+import org.example.serverapp.Utils.pojos.CreateGroupPojo;
 import org.example.serverapp.entities.StudentGroup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

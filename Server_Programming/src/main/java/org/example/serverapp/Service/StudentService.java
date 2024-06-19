@@ -1,7 +1,7 @@
 package org.example.serverapp.Service;
 
 import org.example.serverapp.Repositories.StudentRepository;
-import org.example.serverapp.Utils.CreateOrUpdateStudentPojo;
+import org.example.serverapp.Utils.pojos.CreateOrUpdateStudentPojo;
 import org.example.serverapp.entities.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
